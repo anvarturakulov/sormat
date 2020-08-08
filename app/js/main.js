@@ -19,9 +19,23 @@ $(function(){
     slidesToScroll: 1,
     //dots: true,
     arrows:true,
-  
   });
 
+  
+  $(".sertif__slider").slick({
+    // centerMode: true,
+    // centerPadding: '0px',
+    slidesToShow: 3,
+    dots:true
+  });
+
+  
+  // $(".slider__index").slick({
+  //   slidesToShow: 1,
+  //   // slidesToScroll: 1,
+  //   dots: true,
+  //   arrows:true,
+  // });
     
 });
 

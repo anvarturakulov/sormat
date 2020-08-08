@@ -19,14 +19,7 @@ $(function(){
     slidesToScroll: 1,
     //dots: true,
     arrows:true,
-  //   responsive: [
-  //     {
-  //       breakpoint: 720,
-  //       settings: {
-  //         slidesToShow: 1
-  //       }
-  //     }
-  //   ]
+  
   });
 
     

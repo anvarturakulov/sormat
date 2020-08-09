@@ -3384,7 +3384,39 @@
 }
 
 
+// Enf global slider parametres
 
+.price__form{
+    display: flex;
+    align-items: center;
+    &-text{
+        font-size: 20px;
+        line-height: 24px;
+        color: #3b736a;
+        margin-right: 69px;
+        font-weight: 700;
+    }
+    form{
+        select{
+            width: 360px;
+            height: 40px;
+            outline: none;
+            border: none;
+            background-color: rgb(241, 247, 246);
+            box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.1);
+            width: 360px;
+            height: 40px;
+            color: #3b736a;
+            //padding: 14px 20px;
+            
+        }
+    }
+}
 
+.price-line__dots{
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 @import 'media';

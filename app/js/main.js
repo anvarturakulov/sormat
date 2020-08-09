@@ -5,7 +5,6 @@ $(function(){
     $('vacancy__glbox').not($(this)).removeClass('active');
     $('.vacancy__footerbox').not($(this).next()).slideUp(300);
     $(this).toggleClass('active').next().slideToggle(300);
-    
   });
 
   $('.quest__glbox').click(function(event){
@@ -21,22 +20,41 @@ $(function(){
     arrows:true,
   });
 
-  
   $(".sertif__slider").slick({
-    // centerMode: true,
-    // centerPadding: '0px',
+    centerMode: true,
+    centerPadding: '0px',
     slidesToShow: 3,
-    dots:true
+    dots:true,
+    arrows:true,
+    speed:1000
   });
 
-  
-  // $(".slider__index").slick({
-  //   slidesToShow: 1,
-  //   // slidesToScroll: 1,
-  //   dots: true,
-  //   arrows:true,
-  // });
-    
+  $(".slider__about").slick({
+    slidesToShow: 1,
+    dots:true,
+    speed:1000,
+    arrows:true,
+    autoplay:true
+  });
+
+  $(".slider__patent").slick({
+    centerMode: true,
+    centerPadding: '0px',
+    slidesToShow: 3,
+    dots:true,
+    arrows:true,
+    speed:1000
+  });
+
+
+  $(".slider__header").slick({
+    slidesToShow: 1,
+    dots:true,
+    speed:1000,
+    arrows:true,
+    autoplay:true
+  });
+
 });
 
 
